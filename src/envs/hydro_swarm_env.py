@@ -38,7 +38,7 @@ class HydroSwarmEnv(MultiBotClusterEnv):
         self.max_steps = int(episode_seconds / dt)
 
         # Replace action space: shared scalar ∈ [-2, 2]
-        self.action_space = spaces.Box(low=-2.0, high=2.0, shape=(1,), dtype=np.float32)
+        self.action_space = spaces.Box(low=-2.0, high=2.0, shape=(self.N,), dtype=np.float32)
 
         # Observation size: own(6) + sonar + neighbours
         self.sonar_beams = sonar_beams
