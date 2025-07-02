@@ -118,8 +118,5 @@ print("distance to goal:", info["distance"])
 
 ## 8  Credits
 
-* Base physics from UCSD course materials (`multibot_cluster_env.py`).  
+* Base physics from Dr.Tan (`multibot_cluster_env.py`).  
 * TD3 idea borrowed from the open-source "[DRL-robot-navigation]" project.  
-* Code organised and simplified by the ML-Lab Summer 2025 teaching team.
-
-Pull requests and questions welcome – open an issue or ask during office hours.
