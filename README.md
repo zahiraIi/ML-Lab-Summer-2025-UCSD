@@ -1,7 +1,7 @@
-# Hydrodynamic-Swarm RL Lab  
+# Robotic-Swarm RL Lab  
 UCSD Summer 2025
 
-A mini-research sandbox for teaching and testing decentralised control of small underwater "spinning-bot" swarms.
+A mini-research sandbox for teaching and testing decentralised control of small underwater "spinning-bot" swarms + navigatation.
 
 *   **Physics** – exactly the model in `referencefiles/multibot_cluster_env.py` (no edits).  
 *   **Environment** – wraps that physics, adds a start-and-goal task.  
