@@ -1,7 +1,7 @@
 # Robotic-Swarm RL Lab  
 UCSD Summer 2025
 
-A mini-research sandbox for teaching and testing decentralised control of small underwater "spinning-bot" swarms + navigatation.
+A mini-research sandbox for teaching and testing decentralised control of small underwater "spinning-bot" swarms.
 
 *   **Physics** – exactly the model in `referencefiles/multibot_cluster_env.py` (no edits).  
 *   **Environment** – wraps that physics, adds a start-and-goal task.  
@@ -118,5 +118,14 @@ print("distance to goal:", info["distance"])
 
 ## 8  Credits
 
-* Base physics from Dr.Tan (`multibot_cluster_env.py`).  
+* Base physics from UCSD course materials (`multibot_cluster_env.py`).  
 * TD3 idea borrowed from the open-source "[DRL-robot-navigation]" project.  
+* Code organised and simplified by the ML-Lab Summer 2025 teaching team.
+
+Pull requests and questions welcome – open an issue or ask during office hours.
+
+## Results preview  
+
+A typical run after training (five-robot swarm, TD3-LSTM policy):
+
+![Swarm reaches target](assets/demo_success.png)
