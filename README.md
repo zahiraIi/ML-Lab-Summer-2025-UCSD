@@ -128,4 +128,4 @@ Pull requests and questions welcome – open an issue or ask during office hours
 
 A typical run after training (five-robot swarm, TD3-LSTM policy):
 
-![Swarm reaches target](assets/demo_success.png)
+![Swarm reaches target](assets/image.png)
