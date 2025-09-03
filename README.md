@@ -1,4 +1,4 @@
-# Robotic-Swarm RL Lab  
+# Robotic-Swarm Reinforcement Learning Navigation  
 UCSD Summer 2025
 
 A mini-research sandbox for teaching and testing decentralised control of small underwater "spinning-bot" swarms.
